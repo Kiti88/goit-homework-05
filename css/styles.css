@@ -501,7 +501,7 @@ svg {
         margin-bottom: 16px;
 }
 .container-form{
-
+        gap 24px;
 }
 .container-form-text {
         margin-bottom: 16px;
