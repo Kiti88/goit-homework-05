@@ -501,7 +501,7 @@ svg {
         margin-bottom: 16px;
 }
 .container-form{
-        gap 24px;
+       
 }
 .container-form-text {
         margin-bottom: 16px;
@@ -512,7 +512,8 @@ svg {
         color: #ffffff;
 }
 .container-form-group {
-        display: flex;     
+        display: flex; 
+        gap 24px;
 }
 .container-form-label {
         gap 24px;    
@@ -616,6 +617,7 @@ svg {
 }
 .form-info {
         margin-bottom: 8px;
+        padding: 72px 24px 24px 24px;
 }
 .name {
         font-size: 12px;
