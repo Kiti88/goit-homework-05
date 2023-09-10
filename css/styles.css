@@ -699,7 +699,7 @@ svg {
         justify-content: center;
         fill: transparent;
 }
-.review-form-span:checked {
+.review-form-own-checkbox:checked {
         background-color: var(--secondary-accent-color);
         border: none;
         fill: var(--social-icon-color);
