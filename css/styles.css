@@ -700,12 +700,7 @@ svg {
         justify-content: center;
         fill: transparent;
 }
-.review-form-checkbox:checked + .review-form-checkbox-label >
-.review-form-own-checkbox-icon {
-        border: none;
-        fill: var(--social-icon-color);
-        background-color: var(--secondary-accent-color);
-}
+
 .review-form-own-checkbox:checked {
         background-color: var(--secondary-accent-color);
         border: none;
