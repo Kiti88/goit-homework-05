@@ -28,6 +28,29 @@ img {
          max-width: 100%;
          height: auto;
 }
+:root {
+        --prymary-font: "Roboto", sans-serif;
+        --secondary-font: "Ralewat", sans-serif;
+
+        --prymary-bg-color: #ffffff;
+        --secondary-bg-color: #2e2f42;
+        --tertiary-bg-color: #f4f4fd;
+        --quaternary-bg-color: #ffffff;
+
+        --prymary-text-color: #434455;
+        --secondary-text-color: #2e2f42;
+        --tertiary-text-color: #ffffff;
+        --quaternary-text-color: #f4f4fd;
+
+        --prymary-accent-color: #4d5ae5;
+        --secondary-accent-color: #404bbf;
+        --tertiary-accent-color: #31d0aa;
+
+        --prymary-boarder-color: #e7e9fc;
+        --secondary-boarder-color: #8e8f99;
+
+        --social-icon-color: #f4f4fd;
+}
 .link {
         text-decoration: none;
 }
@@ -294,29 +317,7 @@ img {
         width: 16px;
         height: 16px;
 }
-:root {
-        --prymary-font: "Roboto", sans-serif;
-        --secondary-font: "Ralewat", sans-serif;
 
-        --prymary-bg-color: #ffffff;
-        --secondary-bg-color: #2e2f42;
-        --tertiary-bg-color: #f4f4fd;
-        --quaternary-bg-color: #ffffff;
-
-        --prymary-text-color: #434455;
-        --secondary-text-color: #2e2f42;
-        --tertiary-text-color: #ffffff;
-        --quaternary-text-color: #f4f4fd;
-
-        --prymary-accent-color: #4d5ae5;
-        --secondary-accent-color: #404bbf;
-        --tertiary-accent-color: #31d0aa;
-
-        --prymary-boarder-color: #e7e9fc;
-        --secondary-boarder-color: #8e8f99;
-
-        --social-icon-color: #f4f4fd;
-}
 svg {
         fill: var(--social-icon-color);
 }
@@ -698,6 +699,12 @@ svg {
         align-items: center;
         justify-content: center;
         fill: transparent;
+}
+.review-form-checkbox:checked + .review-form-checkbox-label >
+.review-form-own-checkbox-icon {
+        border: none;
+        fill: var(--social-icon-color);
+        background-color: var(--secondary-accent-color);
 }
 .review-form-own-checkbox:checked {
         background-color: var(--secondary-accent-color);
