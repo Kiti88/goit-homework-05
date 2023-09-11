@@ -607,6 +607,8 @@ svg {
 .touch-form:hover,
 .touch-form:focus {
         fill: #ffffff;
+        background-color: #404bbf;
+        border: none;
 }
 .modall-text {
         font-weight: 500;
