@@ -620,7 +620,7 @@ svg {
 }
 .form-info {
         margin-bottom: 8px;
-        padding: 72px 24px 24px 24px;
+        
 }
 .name {
         font-size: 12px;
@@ -684,6 +684,11 @@ svg {
         
 }
 .visually-hidden {}
+.default-checkbox:checked+.box-text>.review-form-own-checkbox {
+        background-color: var(--secondary-accent-color);
+        border: none;
+        fill: var(--social-icon-color);
+}
 .box-text{
         font-size: 12px;
         line-height: 1.17;
