@@ -593,11 +593,11 @@ svg {
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
 }
-.touch:hover +svg {
+.touch:hover {
         background-color: #404bbf;
         border: none;
 }
-.touch:focus +svg {
+.touch:focus {
         background-color: #404bbf;
         border: none;
 }
@@ -605,10 +605,11 @@ svg {
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .touch-form:hover,
-.touch-form:focus {
+.touch-form:focus,
+.touch:hover,
+.touch:focus  {
         fill: #ffffff;
-        background-color: #404bbf;
-        border: none;
+        
 }
 .modall-text {
         font-weight: 500;
