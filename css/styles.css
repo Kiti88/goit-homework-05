@@ -317,7 +317,6 @@ img {
         width: 16px;
         height: 16px;
 }
-
 svg {
         fill: var(--social-icon-color);
 }
@@ -502,7 +501,6 @@ svg {
         margin-bottom: 16px;
 }
 .container-form{
-       
 }
 .container-form-text {
         margin-bottom: 16px;
@@ -552,7 +550,6 @@ svg {
 .container-form-icon {
         margin-left: 16px;
 }
-
 .backdrop{
         position: fixed;
         top: 0;
@@ -562,7 +559,6 @@ svg {
         background-color: rgba(46, 47, 66, 0.4);
         transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
         padding: 72px 24px 24px 24px;
-
 }
 .form-group{
         padding: 72px 24px 24px 24px;
@@ -592,7 +588,6 @@ svg {
         padding: 0;
         cursor: pointer;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        
 }
 .touch:hover {
         background-color: #404bbf;
@@ -607,7 +602,6 @@ svg {
 }
 .touch:focus .touch-form {
         fill: #ffffff;
-        
 }
 .modall-text {
         font-weight: 500;
@@ -620,7 +614,6 @@ svg {
 }
 .form-info {
         margin-bottom: 8px;
-        
 }
 .name {
         font-size: 12px;
@@ -653,7 +646,7 @@ svg {
         transform: translateY(-50%);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.name-icon:focus +svg {
+.input-form-name+.name-icon {
         fill: #4D5AE5;
 }
 .form-blok {
@@ -681,7 +674,6 @@ svg {
         margin-bottom: 24px;     
 }
 .input-form-checbox {
-        
 }
 .visually-hidden {}
 .default-checkbox:checked+.box-text>.review-form-own-checkbox {
@@ -706,7 +698,6 @@ svg {
         justify-content: center;
         fill: transparent;
 }
-
 .review-form-own-checkbox:checked +label>span {
         background-color: var(--secondary-accent-color);
         border: none;
